@@ -1,0 +1,120 @@
+  body {
+            font-family: Open Sans, sans-serif;
+            background-color: #E3E3E3;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+		
+		header h2 {
+			text-align: center;
+			
+		}
+		
+		header h3 {
+			text-align: center;
+		}
+		
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 20px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #e3e3e3;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+         .section:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 5px;
+            background-color: linear-gradient(45deg, #2196F3, #FF9800);
+            z-index: -1;
+        }
+
+        .section h2 {
+            color: #333;
+            margin-bottom: 10px;
+			text-align: center;
+        }
+		
+		.section h3 {
+			text-align: center;
+		}
+		
+	
+		
+
+        .section p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .image-collage {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .image-collage img {
+            width: auto;
+            height: 100%;
+            object-fit: cover;
+            margin: 0 5px;
+        }
+		
+		#about
+		{
+			background: linear-gradient(45deg, #60FBCA, #63FB60);
+		}
+		
+		#contact
+		{
+			 background: linear-gradient(45deg, #F1FF61, #CF83FB);
+		}
+		
+		#projects
+		{
+			background: linear-gradient(45deg, #FEC95A, #FFFDD0);
+		}
+		
+		#experience
+		{
+			background: linear-gradient(45deg, #FF6464, #4FDFFF);
+		}
